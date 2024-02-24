@@ -1,0 +1,11 @@
+.serv-table1 {
+    display: flex; /* Set display to flex */
+}
+
+table {
+    margin-right: 20px; /* Add margin between the tables */
+    width: 100%;
+    border: 0cap solid #ded9d9;
+          border-spacing: 0cm; text-align: left;
+          padding: 9px 20px;
+}
