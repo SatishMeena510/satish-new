@@ -73,30 +73,17 @@ body {
 
   }
 
-  .nav-links li a span {
-    cursor: pointer;
-    
-    position: relative;
-    transition: 0.5s;
+  @media screen and (max-width: 500px) {
+    .nav-links {
+      display: none;
+    }
   }
-
-  .nav-links li a span:after {
-    content: '\00bb';
-    position: absolute;
-    opacity: 0;
-    top: 0;
-    right: -20px;
-    transition: 0.5s;
-  }
-
-  .nav-links li a:hover span {
-    padding-right: 25px;
-  }
+/* bsvuabeijv */
   
-  .nav-links li a:hover span:after {
-    opacity: 1;
-    right: 0;
-  }
+
+  
+  
+  
   
   body{
     background-color: rgb(102, 89, 89);
@@ -107,7 +94,7 @@ body {
 
 
 
-  /* futter */
+  /* futter Start */
   .futter{
     background-image: url("footer-bg-icon-1.png");
     background-color: rgba(196, 180, 180, 0.082);
@@ -116,6 +103,7 @@ body {
   .row{
     display: flex;
     align-items: center;
+    justify-content: space-around;
   }
 
   .footer-widget{
@@ -152,6 +140,7 @@ body {
   }
   .list-unstyled-footer-widget__links{
     list-style-type:circle;
+    display: contents;
     
   }
   .list-unstyled-footer-widget__links li{
@@ -167,6 +156,7 @@ body {
   }
 
   .bottom-footer{
+   
     
   }
   .container{
@@ -175,4 +165,8 @@ body {
   }
   .list-unstyled-footer-widget__contact{
     list-style: none;
+    display:contents;
+    justify-content: space-between;
   }
+
+/* futter end */
