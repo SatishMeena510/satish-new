@@ -77,14 +77,14 @@ body {
     .nav-links {
       display: none;
     }
-  }
-/* bsvuabeijv */
-  
 
-  
-  
-  
-  
+    .row div{
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+
   body{
     background-color: rgb(102, 89, 89);
   }
